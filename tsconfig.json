@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"baseUrl": ".",
+		"jsx": "preserve",
+		"typeRoots": ["node_modules/@types"],
+		"lib": ["dom", "es2017"],
+		"moduleResolution": "node",
+		"noEmit": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"preserveConstEnums": true,
+		"removeComments": false,
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"strict": true,
+		"target": "esnext",
+		"forceConsistentCasingInFileNames": true,
+		"esModuleInterop": true,
+		"module": "esnext",
+		"resolveJsonModule": true,
+		"isolatedModules": true
+	},
+	"exclude": ["node_modules"],
+	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+}
